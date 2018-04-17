@@ -1,0 +1,226 @@
+Error: Handshake inactivity timeout
+    at Handshake.<anonymous> (c:\Users\75438\Desktop\newBlog\blog\server\node_modules\_mysql@2.15.0@mysql\lib\protocol\Protocol.js:164:17)
+    at emitNone (events.js:105:13)
+    at Handshake.emit (events.js:207:7)
+    at Handshake._onTimeout (c:\Users\75438\Desktop\newBlog\blog\server\node_modules\_mysql@2.15.0@mysql\lib\protocol\sequences\Sequence.js:129:8)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+    --------------------
+    at Protocol._enqueue (c:\Users\75438\Desktop\newBlog\blog\server\node_modules\_mysql@2.15.0@mysql\lib\protocol\Protocol.js:145:48)
+    at Protocol.handshake (c:\Users\75438\Desktop\newBlog\blog\server\node_modules\_mysql@2.15.0@mysql\lib\protocol\Protocol.js:52:23)
+    at PoolConnection.connect (c:\Users\75438\Desktop\newBlog\blog\server\node_modules\_mysql@2.15.0@mysql\lib\Connection.js:130:18)
+    at Pool.getConnection (c:\Users\75438\Desktop\newBlog\blog\server\node_modules\_mysql@2.15.0@mysql\lib\Pool.js:48:16)
+    at Promise (c:\Users\75438\Desktop\newBlog\blog\server\dataStorage\mysql\ModuleDB.js:16:18)
+    at Promise (<anonymous>)
+    at User._query (c:\Users\75438\Desktop\newBlog\blog\server\dataStorage\mysql\ModuleDB.js:15:16)
+    at User.query (c:\Users\75438\Desktop\newBlog\blog\server\dataStorage\mysql\ModuleDB.js:47:21)
+    at router.post (c:\Users\75438\Desktop\newBlog\blog\server\routes\user.js:14:30)
+    at dispatch (c:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (c:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at c:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-router@7.2.1@koa-router\lib\router.js:345:16
+    at dispatch (c:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at c:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (c:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-router@7.2.1@koa-router\lib\router.js:350:31)
+    at dispatch (c:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-compose@4.0.0@koa-compose\index.js:42:32)
+
+
+Error: ENOENT: no such file or directory, open 'c:\Users\75438\Desktop\newBlog\blog\client\admin\app.html'
+
+
+TypeError: callback is not a function
+    at C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_ueditor@1.2.3@ueditor\lib\index.js:191:7
+    at C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_ueditor@1.2.3@ueditor\lib\index.js:36:5
+    at dispatch (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-router@7.2.1@koa-router\lib\router.js:345:16
+    at dispatch (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-router@7.2.1@koa-router\lib\router.js:350:31)
+    at dispatch (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-compose@4.0.0@koa-compose\index.js:42:32)
+    at next (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-compose@4.0.0@koa-compose\index.js:43:18)
+    at dispatch (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-router@7.2.1@koa-router\lib\router.js:332:32)
+    at dispatch (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-compose@4.0.0@koa-compose\index.js:42:32)
+    at next (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-compose@4.0.0@koa-compose\index.js:43:18)
+    at dispatch (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-router@7.2.1@koa-router\lib\router.js:332:32)
+    at dispatch (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-compose@4.0.0@koa-compose\index.js:42:32)
+    at next (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-compose@4.0.0@koa-compose\index.js:43:18)
+
+
+Error: Handshake inactivity timeout
+    at Handshake.<anonymous> (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_mysql@2.15.0@mysql\lib\protocol\Protocol.js:164:17)
+    at emitNone (events.js:105:13)
+    at Handshake.emit (events.js:207:7)
+    at Handshake._onTimeout (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_mysql@2.15.0@mysql\lib\protocol\sequences\Sequence.js:129:8)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+    --------------------
+    at Protocol._enqueue (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_mysql@2.15.0@mysql\lib\protocol\Protocol.js:145:48)
+    at Protocol.handshake (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_mysql@2.15.0@mysql\lib\protocol\Protocol.js:52:23)
+    at PoolConnection.connect (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_mysql@2.15.0@mysql\lib\Connection.js:130:18)
+    at Pool.getConnection (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_mysql@2.15.0@mysql\lib\Pool.js:48:16)
+    at Promise (C:\Users\75438\Desktop\newBlog\blog\server\dataStorage\mysql\ModuleDB.js:16:18)
+    at Promise (<anonymous>)
+    at Article._query (C:\Users\75438\Desktop\newBlog\blog\server\dataStorage\mysql\ModuleDB.js:15:16)
+    at Article.getCount (C:\Users\75438\Desktop\newBlog\blog\server\dataStorage\mysql\ModuleDB.js:91:21)
+    at router.post (C:\Users\75438\Desktop\newBlog\blog\server\routes\article.js:37:31)
+    at dispatch (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-router@7.2.1@koa-router\lib\router.js:345:16
+    at dispatch (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-router@7.2.1@koa-router\lib\router.js:350:31)
+    at dispatch (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-compose@4.0.0@koa-compose\index.js:42:32)
+
+
+TypeError: ctx.pipe is not a function
+    at C:\Users\75438\Desktop\newBlog\blog\server\lib\ueditor.js:191:11
+    at C:\Users\75438\Desktop\newBlog\blog\server\lib\ueditor.js:37:5
+    at dispatch (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-router@7.2.1@koa-router\lib\router.js:345:16
+    at dispatch (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-router@7.2.1@koa-router\lib\router.js:350:31)
+    at dispatch (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-compose@4.0.0@koa-compose\index.js:42:32)
+    at next (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-compose@4.0.0@koa-compose\index.js:43:18)
+    at dispatch (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-router@7.2.1@koa-router\lib\router.js:332:32)
+    at dispatch (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-compose@4.0.0@koa-compose\index.js:42:32)
+    at next (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-compose@4.0.0@koa-compose\index.js:43:18)
+    at dispatch (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-router@7.2.1@koa-router\lib\router.js:332:32)
+    at dispatch (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-compose@4.0.0@koa-compose\index.js:42:32)
+    at next (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-compose@4.0.0@koa-compose\index.js:43:18)
+
+
+TypeError: ctx.pipe is not a function
+    at C:\Users\75438\Desktop\newBlog\blog\server\lib\ueditor.js:191:11
+    at C:\Users\75438\Desktop\newBlog\blog\server\lib\ueditor.js:37:5
+    at dispatch (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-router@7.2.1@koa-router\lib\router.js:345:16
+    at dispatch (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-router@7.2.1@koa-router\lib\router.js:350:31)
+    at dispatch (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-compose@4.0.0@koa-compose\index.js:42:32)
+    at next (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-compose@4.0.0@koa-compose\index.js:43:18)
+    at dispatch (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-router@7.2.1@koa-router\lib\router.js:332:32)
+    at dispatch (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-compose@4.0.0@koa-compose\index.js:42:32)
+    at next (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-compose@4.0.0@koa-compose\index.js:43:18)
+    at dispatch (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-router@7.2.1@koa-router\lib\router.js:332:32)
+    at dispatch (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-compose@4.0.0@koa-compose\index.js:42:32)
+    at next (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-compose@4.0.0@koa-compose\index.js:43:18)
+
+
+TypeError: ctx.pipe is not a function
+    at C:\Users\75438\Desktop\newBlog\blog\server\lib\ueditor.js:191:11
+    at C:\Users\75438\Desktop\newBlog\blog\server\lib\ueditor.js:37:5
+    at dispatch (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-router@7.2.1@koa-router\lib\router.js:345:16
+    at dispatch (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-router@7.2.1@koa-router\lib\router.js:350:31)
+    at dispatch (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-compose@4.0.0@koa-compose\index.js:42:32)
+    at next (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-compose@4.0.0@koa-compose\index.js:43:18)
+    at dispatch (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-router@7.2.1@koa-router\lib\router.js:332:32)
+    at dispatch (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-compose@4.0.0@koa-compose\index.js:42:32)
+    at next (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-compose@4.0.0@koa-compose\index.js:43:18)
+    at dispatch (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-router@7.2.1@koa-router\lib\router.js:332:32)
+    at dispatch (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-compose@4.0.0@koa-compose\index.js:42:32)
+    at next (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-compose@4.0.0@koa-compose\index.js:43:18)
+
+
+TypeError: ctx.pipe is not a function
+    at C:\Users\75438\Desktop\newBlog\blog\server\lib\ueditor.js:191:11
+    at C:\Users\75438\Desktop\newBlog\blog\server\lib\ueditor.js:37:5
+    at dispatch (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-router@7.2.1@koa-router\lib\router.js:345:16
+    at dispatch (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-router@7.2.1@koa-router\lib\router.js:350:31)
+    at dispatch (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-compose@4.0.0@koa-compose\index.js:42:32)
+    at next (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-compose@4.0.0@koa-compose\index.js:43:18)
+    at dispatch (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-router@7.2.1@koa-router\lib\router.js:332:32)
+    at dispatch (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-compose@4.0.0@koa-compose\index.js:42:32)
+    at next (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-compose@4.0.0@koa-compose\index.js:43:18)
+    at dispatch (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-router@7.2.1@koa-router\lib\router.js:332:32)
+    at dispatch (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-compose@4.0.0@koa-compose\index.js:42:32)
+    at next (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-compose@4.0.0@koa-compose\index.js:43:18)
+
+
+TypeError: ctx.pipe is not a function
+    at C:\Users\75438\Desktop\newBlog\blog\server\lib\ueditor.js:191:11
+    at C:\Users\75438\Desktop\newBlog\blog\server\lib\ueditor.js:37:5
+    at dispatch (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-router@7.2.1@koa-router\lib\router.js:345:16
+    at dispatch (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-router@7.2.1@koa-router\lib\router.js:350:31)
+    at dispatch (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-compose@4.0.0@koa-compose\index.js:42:32)
+    at next (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-compose@4.0.0@koa-compose\index.js:43:18)
+    at dispatch (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-router@7.2.1@koa-router\lib\router.js:332:32)
+    at dispatch (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-compose@4.0.0@koa-compose\index.js:42:32)
+    at next (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-compose@4.0.0@koa-compose\index.js:43:18)
+    at dispatch (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-router@7.2.1@koa-router\lib\router.js:332:32)
+    at dispatch (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-compose@4.0.0@koa-compose\index.js:42:32)
+    at next (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-compose@4.0.0@koa-compose\index.js:43:18)
+
+
+TypeError: ctx.pipe is not a function
+    at C:\Users\75438\Desktop\newBlog\blog\server\lib\ueditor.js:191:11
+    at C:\Users\75438\Desktop\newBlog\blog\server\lib\ueditor.js:37:5
+    at dispatch (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-router@7.2.1@koa-router\lib\router.js:345:16
+    at dispatch (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-router@7.2.1@koa-router\lib\router.js:350:31)
+    at dispatch (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-compose@4.0.0@koa-compose\index.js:42:32)
+    at next (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-compose@4.0.0@koa-compose\index.js:43:18)
+    at dispatch (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-router@7.2.1@koa-router\lib\router.js:332:32)
+    at dispatch (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-compose@4.0.0@koa-compose\index.js:42:32)
+    at next (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-compose@4.0.0@koa-compose\index.js:43:18)
+    at dispatch (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-router@7.2.1@koa-router\lib\router.js:332:32)
+    at dispatch (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-compose@4.0.0@koa-compose\index.js:42:32)
+    at next (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-compose@4.0.0@koa-compose\index.js:43:18)
+
+
+TypeError: ctx.pipe is not a function
+    at C:\Users\75438\Desktop\newBlog\blog\server\lib\ueditor.js:191:11
+    at C:\Users\75438\Desktop\newBlog\blog\server\lib\ueditor.js:37:5
+    at dispatch (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-router@7.2.1@koa-router\lib\router.js:345:16
+    at dispatch (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-router@7.2.1@koa-router\lib\router.js:350:31)
+    at dispatch (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-compose@4.0.0@koa-compose\index.js:42:32)
+    at next (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-compose@4.0.0@koa-compose\index.js:43:18)
+    at dispatch (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-router@7.2.1@koa-router\lib\router.js:332:32)
+    at dispatch (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-compose@4.0.0@koa-compose\index.js:42:32)
+    at next (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-compose@4.0.0@koa-compose\index.js:43:18)
+    at dispatch (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-router@7.2.1@koa-router\lib\router.js:332:32)
+    at dispatch (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-compose@4.0.0@koa-compose\index.js:42:32)
+    at next (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-compose@4.0.0@koa-compose\index.js:43:18)
+
+
+TypeError: ctx.pipe is not a function
+    at C:\Users\75438\Desktop\newBlog\blog\server\lib\ueditor.js:192:11
+    at C:\Users\75438\Desktop\newBlog\blog\server\lib\ueditor.js:37:5
+    at dispatch (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-router@7.2.1@koa-router\lib\router.js:345:16
+    at dispatch (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-router@7.2.1@koa-router\lib\router.js:350:31)
+    at dispatch (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-compose@4.0.0@koa-compose\index.js:42:32)
+    at next (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-compose@4.0.0@koa-compose\index.js:43:18)
+    at dispatch (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-router@7.2.1@koa-router\lib\router.js:332:32)
+    at dispatch (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-compose@4.0.0@koa-compose\index.js:42:32)
+    at next (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-compose@4.0.0@koa-compose\index.js:43:18)
+    at dispatch (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-router@7.2.1@koa-router\lib\router.js:332:32)
+    at dispatch (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-compose@4.0.0@koa-compose\index.js:42:32)
+    at next (C:\Users\75438\Desktop\newBlog\blog\server\node_modules\_koa-compose@4.0.0@koa-compose\index.js:43:18)

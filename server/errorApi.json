@@ -1,0 +1,12 @@
+{
+    "UNKNOW_ERROR": {
+        "code":"500",
+        "msg":"未知错误",
+        "name":"UNKNOW_ERROR"
+    },
+    "USER_NOT_EXIST":{
+        "code":"101",
+        "msg":"用户不存在",
+        "name":"USER_NOT_EXIST"
+    }
+}

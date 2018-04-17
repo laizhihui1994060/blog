@@ -1,0 +1,33 @@
+{
+    "session":{
+        "host": "120.77.173.80",
+        "db": "blog_session",
+        "user": "root",
+        "password": "a86176327",
+        "key": "session key",
+        "path": "/",
+        "max_age": 86400000,
+        "http_only": false,
+        "domain": null
+    },
+    "email":{
+        "service": "qq",  
+        "auth": {  
+            "user": "754388246@qq.com",  
+            "pass": "fbymhbvmbgpdbcbg" ,
+            "toUser" : "754388246@qq.com" 
+        }  
+    },
+    "mysql":{
+        "host":"120.77.173.80",
+        "user":"root",
+        "password":"a86176327",
+        "port":"3306",
+        "db":"blog"
+    },
+    "redis":{
+        "post":"6379",
+        "host":"120.77.173.80",
+        "auth_pass":"a86176327"
+    }
+}
